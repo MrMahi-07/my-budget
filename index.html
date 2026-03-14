@@ -7,7 +7,6 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
 /* ── Tokens ── */
-/* ── Tokens ── */
 :root{
   --bg:#0e0f11;--surface:#16181c;--card:#1d1f25;--border:#2a2d35;
   --gold:#d4a853;--gold-dim:#9a7838;--gold-bg:#1e1a10;
@@ -1089,11 +1088,14 @@ function askDelete(id,desc){pendingDelId=id;g('del-tx-name').textContent=`"${des
 function closeDelModal(){pendingDelId=null;g('del-modal').style.display='none';}
 async function confirmDelete(){
   if(!pendingDelId)return;
-  const tx=transactions.find(t=>t.id===pendingDelId);
+  const id=pendingDelId; // save ID before closeDelModal nulls it
+  const tx=transactions.find(t=>t.id===id);
   closeDelModal();
-  transactions=transactions.filter(t=>t.id!==pendingDelId);
-  pendingDelId=null;
-  renderAll(); renderIncomePanel();
+  transactions=transactions.filter(t=>t.id!==id);
+  setTimeout(()=>{
+    renderAll(); renderIncomePanel();
+    if(isMob()) switchMobTab('tx');
+  }, 80);
   await saveToGitHub(tx?`[Ledger] Deleted: ${tx.desc} ${fmt(tx.amount)} (${tx.category})`:'[Ledger] Deleted transaction');
 }
 
@@ -1416,7 +1418,7 @@ function si(id,html){const el=g(id);if(el)el.innerHTML=html;}
 function sum(type,txs){return txs.filter(t=>t.type===type).reduce((s,t)=>s+t.amount,0);}
 function fmt(n){return'₹'+Math.abs(n).toLocaleString('en-IN',{minimumFractionDigits:2,maximumFractionDigits:2});}
 function fmtK(n){const a=Math.abs(n),s=n<0?'-':'';if(a>=100000)return s+'₹'+(a/100000).toFixed(1)+'L';if(a>=1000)return s+'₹'+(a/1000).toFixed(1)+'k';return s+'₹'+a.toFixed(0);}
-function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
 function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,5);}
 function setSS(s,t){const d=g('sync-dot'),tx=g('sync-txt');if(d)d.className=s;if(tx)tx.textContent=t;}
 let _tt;
