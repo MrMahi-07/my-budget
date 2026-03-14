@@ -1,0 +1,97 @@
+{
+  "month": "2026-03",
+  "transactions": [
+    {
+      "id": "mmpwz2xc3ik",
+      "type": "expense",
+      "desc": "Lunch",
+      "amount": 75,
+      "category": "Food",
+      "date": "2026-03-14"
+    },
+    {
+      "id": "mmmwdv4p8c1",
+      "type": "expense",
+      "desc": "Guava",
+      "amount": 100,
+      "category": "Food",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "mmm6au47kzq",
+      "type": "expense",
+      "desc": "Petrol",
+      "amount": 500,
+      "category": "Transport",
+      "date": "2026-03-11"
+    },
+    {
+      "id": "mmli2yv8ulq",
+      "type": "expense",
+      "desc": "Office contributions",
+      "amount": 100,
+      "category": "Other",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "mmli0cei6wt",
+      "type": "expense",
+      "desc": "Tain booking",
+      "amount": 475.25,
+      "category": "Transport",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "mmkxdo3p4ge",
+      "type": "expense",
+      "desc": "Fiber recharge",
+      "amount": 470,
+      "category": "Utilities",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "mmkxct7nxxw",
+      "type": "expense",
+      "desc": "DTH Payment",
+      "amount": 1299,
+      "category": "Utilities",
+      "date": "2026-03-09"
+    },
+    {
+      "id": "mmkx8wm1drj",
+      "type": "expense",
+      "desc": "PG Rent",
+      "amount": 6500,
+      "category": "Other",
+      "date": "2026-03-01",
+      "recurring": true
+    },
+    {
+      "id": "mmkx2rubkaq",
+      "type": "expense",
+      "desc": "Gold Purchase",
+      "amount": 20000,
+      "category": "Shopping",
+      "date": "2026-03-10",
+      "recurring": true
+    },
+    {
+      "id": "mmkwzia19pw",
+      "type": "expense",
+      "desc": "SIP",
+      "amount": 17000,
+      "category": "Investment",
+      "date": "2026-03-10",
+      "recurring": true
+    },
+    {
+      "id": "mmm0sr1knyr",
+      "type": "income",
+      "desc": "Salary",
+      "amount": 79021,
+      "category": "Salary",
+      "date": "2026-03-01",
+      "incomeSourceId": "salary"
+    }
+  ]
+}
