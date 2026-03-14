@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmpxpqtxcbo",
+      "type": "expense",
+      "desc": "Credit card bill",
+      "amount": 375.38,
+      "category": "Shopping",
+      "date": "2026-03-13"
+    },
+    {
       "id": "mmpxit73qk1",
       "type": "expense",
       "desc": "Breakfast",
