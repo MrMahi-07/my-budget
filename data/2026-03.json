@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmsk2ftuas3",
+      "type": "expense",
+      "desc": "Billiards",
+      "amount": 102.5,
+      "category": "Entertainment",
+      "date": "2026-03-14"
+    },
+    {
       "id": "mmsk1iirm17",
       "type": "expense",
       "desc": "Billiards",
