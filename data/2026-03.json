@@ -34,14 +34,6 @@
       "date": "2026-03-15"
     },
     {
-      "id": "mmpxz71n3ho",
-      "type": "expense",
-      "desc": "Breakfast",
-      "amount": 50,
-      "category": "Food",
-      "date": "2026-03-14"
-    },
-    {
       "id": "mmpxpqtxcbo",
       "type": "expense",
       "desc": "Credit card bill",
