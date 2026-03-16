@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmsjpf1i3ul",
+      "type": "expense",
+      "desc": "Billiards",
+      "amount": 102.5,
+      "category": "Food",
+      "date": "2026-03-15"
+    },
+    {
       "id": "mmsjnjhvzjn",
       "type": "expense",
       "desc": "Lunch",
