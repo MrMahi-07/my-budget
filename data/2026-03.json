@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmsk8xo7yac",
+      "type": "expense",
+      "desc": "Traveling to Whitefield",
+      "amount": 45,
+      "category": "Transport",
+      "date": "2026-03-16"
+    },
+    {
       "id": "mmsk50lu6pe",
       "type": "expense",
       "desc": "Miscellaneous",
