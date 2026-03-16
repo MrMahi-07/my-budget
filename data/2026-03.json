@@ -18,14 +18,6 @@
       "date": "2026-03-14"
     },
     {
-      "id": "mmsjx7eos8h",
-      "type": "expense",
-      "desc": "Dinner",
-      "amount": 27.99,
-      "category": "Food",
-      "date": "2026-03-15"
-    },
-    {
       "id": "mmsjveo51l7",
       "type": "expense",
       "desc": "Breakfast",
