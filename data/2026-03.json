@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmskdamlog7",
+      "type": "expense",
+      "desc": "Watermelon",
+      "amount": 99,
+      "category": "Food",
+      "date": "2026-03-15"
+    },
+    {
       "id": "mmsk8xo7yac",
       "type": "expense",
       "desc": "Traveling to Whitefield",
