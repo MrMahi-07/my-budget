@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmt9w9azm9o",
+      "type": "expense",
+      "desc": "Grossories",
+      "amount": 148,
+      "category": "Food",
+      "date": "2026-03-16"
+    },
+    {
       "id": "mmt74u1niik",
       "type": "expense",
       "desc": "Comb",
