@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmsjxxndoui",
+      "type": "expense",
+      "desc": "Juice",
+      "amount": 70,
+      "category": "Food",
+      "date": "2026-03-14"
+    },
+    {
       "id": "mmsjx7eos8h",
       "type": "expense",
       "desc": "Dinner",
