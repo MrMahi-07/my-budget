@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmsjveo51l7",
+      "type": "expense",
+      "desc": "Breakfast",
+      "amount": 80,
+      "category": "Food",
+      "date": "2026-03-15"
+    },
+    {
       "id": "mmsjsujybyj",
       "type": "expense",
       "desc": "Lunch",
