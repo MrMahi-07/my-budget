@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmsjyp9kmp2",
+      "type": "expense",
+      "desc": "Auto",
+      "amount": 38.5,
+      "category": "Transport",
+      "date": "2026-03-14"
+    },
+    {
       "id": "mmsjxxndoui",
       "type": "expense",
       "desc": "Juice",
