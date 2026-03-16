@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mmt74u1niik",
+      "type": "expense",
+      "desc": "Comb",
+      "amount": 40,
+      "category": "Shopping",
+      "date": "2026-03-16"
+    },
+    {
       "id": "mmt741dtpbp",
       "type": "expense",
       "desc": "Lunch",
