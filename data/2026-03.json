@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5fw032i8r",
+      "type": "expense",
+      "desc": "Grossories",
+      "amount": 197,
+      "category": "Food",
+      "date": "2026-03-19"
+    },
+    {
       "id": "mn5frrm4odz",
       "type": "expense",
       "desc": "Lunch - Biriyani",
