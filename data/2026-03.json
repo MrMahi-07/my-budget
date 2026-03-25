@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5g6d4otln",
+      "type": "expense",
+      "desc": "Travel - park sqare mall",
+      "amount": 12,
+      "category": "Transport",
+      "date": "2026-03-23"
+    },
+    {
       "id": "mn5g5qrwq0r",
       "type": "expense",
       "desc": "Lunch",
