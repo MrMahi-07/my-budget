@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5g3fhzx22",
+      "type": "expense",
+      "desc": "Travel - Ragigudda",
+      "amount": 45,
+      "category": "Transport",
+      "date": "2026-03-22"
+    },
+    {
       "id": "mn5g2j8wak9",
       "type": "expense",
       "desc": "Milk",
