@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5g5qrwq0r",
+      "type": "expense",
+      "desc": "Lunch",
+      "amount": 95,
+      "category": "Food",
+      "date": "2026-03-23"
+    },
+    {
       "id": "mn5g4i6v2lu",
       "type": "expense",
       "desc": "Travel - back to Whitefield",
