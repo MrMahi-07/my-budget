@@ -358,7 +358,7 @@
       "type": "expense",
       "desc": "PG Rent",
       "amount": 6500,
-      "category": "Other",
+      "category": "Utilities",
       "date": "2026-03-01",
       "recurring": true
     },
@@ -367,7 +367,7 @@
       "type": "expense",
       "desc": "Gold Purchase",
       "amount": 20000,
-      "category": "Shopping",
+      "category": "Other",
       "date": "2026-03-10",
       "recurring": true
     },
@@ -376,7 +376,7 @@
       "type": "expense",
       "desc": "SIP",
       "amount": 17000,
-      "category": "Investment",
+      "category": "Other",
       "date": "2026-03-10",
       "recurring": true
     },
