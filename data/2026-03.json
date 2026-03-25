@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5g2j8wak9",
+      "type": "expense",
+      "desc": "Milk",
+      "amount": 15,
+      "category": "Food",
+      "date": "2026-03-21"
+    },
+    {
       "id": "mn5g1ozl1ah",
       "type": "expense",
       "desc": "Lunch",
