@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5frrm4odz",
+      "type": "expense",
+      "desc": "Lunch - Biriyani",
+      "amount": 160,
+      "category": "Food",
+      "date": "2026-03-18"
+    },
+    {
       "id": "mmvixs4426j",
       "type": "expense",
       "desc": "Lunch",
