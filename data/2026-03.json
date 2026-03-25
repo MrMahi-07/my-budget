@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5g0mfv5nq",
+      "type": "expense",
+      "desc": "Citric Juice",
+      "amount": 30,
+      "category": "Food",
+      "date": "2026-03-19"
+    },
+    {
       "id": "mn5fys3hbai",
       "type": "expense",
       "desc": "Rapido - badminton",
