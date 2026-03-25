@@ -2,6 +2,14 @@
   "month": "2026-03",
   "transactions": [
     {
+      "id": "mn5g8m7q3r1",
+      "type": "expense",
+      "desc": "Cell - mouse",
+      "amount": 22,
+      "category": "Utilities",
+      "date": "2026-03-24"
+    },
+    {
       "id": "mn5g7xu6xnt",
       "type": "expense",
       "desc": "Grocery",
